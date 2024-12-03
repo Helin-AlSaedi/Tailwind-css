@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/839aa981e5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  
+<!-- Background  -->
+  <body class="bg-[url('images/bg-layout.jpg')] h-screen bg-repeat-y bg-cover bg-center md:bg-fixed">
+
+    <!-- Nav bar -->
+    <header class="flex justify-between">
+      <img width="150px" src="images/tailwindcss-logotype.svg" class="m-8"/>
+      <nav class="hidden sm:flex items-center gap-x-8 font-semibold text-sky-400-dark text-sm m-8">
+        <a>Docs</a>
+        <a>Components</a>
+        <a>Blog</a>
+        <a>Showcase</a>
+      
+
+        <div class="flex gap-x-6 border-l pl-4 border-gray-400">
+          <i class="fa-solid fa-sun text-lg"></i>
+          <i class="fa-brands fa-github text-lg"></i>
+        </div>
+      </nav>
+     
+      <!-- Mobile Icons  -->
+  <div class="flex sm:hidden items-center space-x-4 m-7 gap-4"> 
+    <!-- Magnifying Glass Icon -->
+    <button class="text-2xl text-slate-700">
+      <i class="fa-solid fa-magnifying-glass"></i> 
+    </button>
+    <!-- Three Dots Icon -->
+    <button class="text-2xl text-slate-700">
+      <i class="fa-solid fa-ellipsis-vertical"></i> 
+    </button>
+  </div>
+    </header>
+
+<!-- Hero -->
+    <div class="flex flex-col items-center justify-center px-4">
+      <h1 class="text-4xl md:text-6xl text-slate-900 font-extrabold text-center m-8 md:mt-24">
+        Rapidly build modern websites <br> without ever leaving your HTML.
+      </h1>
+
+      <p class="text-center text-sm text-slate-600 md:text-lg box-border font-style mx-4 md:mx-70 sm:mx-96">
+        A utility-first CSS framework packed with classes like 
+        <span class="text-sky-400">flex</span>, <span class="text-sky-400">pt-4</span>,
+        <span class="text-sky-400">text-center</span> and <span class="text-sky-400">rotate-90</span> that can be composed to build any design,
+        directly in your markup.
+      </p>
+
+      <!-- CTA -->
+    <div class="flex justify-center gap-7 m-10">
+      <button class="bg-black text-lg text-white font-semibold rounded-lg h-16 p-3 w-full md:w-auto">Get started</button>
+      <button class="bg-white text-gray-300 border-gray-600 rounded-lg items-center w-72 h-16 p-3 hidden md:flex"><i
+        class="text-lg text-slate-400 mr-5 fa-solid fa-magnifying-glass"
+        aria-hidden="true"
+      ></i>Quick Search</button>
+    </div>
+  </body>
+</html>
